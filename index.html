@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<style>
+    th{
+        background-color: black;
+    }
+</style>
+
+<body>  
+    <section>
+
+        <article id="form">
+           
+            <form action="">
+                <input type="text" placeholder="Name">
+
+                <input type="text" placeholder="Salary">
+                <input type="text" placeholder="Company">
+                <button onclick="formHandle()" id="createBtn">SUBMIT</button>
+            </form>
+
+        </article>
+
+        <article id="database">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Salary</th>
+                    <th>Company</th>
+                    <th>ACTION</th>
+                </tr>
+            </table>
+        </article>
+        
+    </section>
+    <script src="./fun.js"></script>
+  </body>
+  </html>
